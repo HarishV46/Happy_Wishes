@@ -21,27 +21,26 @@ canvas {
 	z-index:0.5;
 	opacity:1;
 }
-div1{
-    position:relative;
-    z-index:1;
-    font-size:100px;
-    padding:0;
-    display: table;
-    margin:auto;
-    letter-spacing:2px;
-    font-family: 'Great Vibes', cursive;
+div1 {
+  font-family: 'Great Vibes', cursive; /* or any similar cursive font */
+  font-size: 60px;
+  color: #d97706; /* festive golden-orange */
+  text-align: center;   /* centers text horizontally */
+  white-space: nowrap;   /* keeps text in a single line */
+  display: block;        /* ensures it behaves as a block element */
+  margin: 0 auto;        /* centers the block itself */
 }
-div2{
-    position:relative;
-    z-index:2;
-    font-size:70px;
-    text-align: "center";
-    padding:0;
-    display: table;
-    margin:auto;
-    letter-spacing:2px;
-    font-family: 'Great Vibes', cursive;
+
+
+div2 {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  height: 100vh;           /* full viewport height */
+  margin: 0;
+  text-align: center;
 }
+
 P{
     display: table;
     margin:20px auto;
